@@ -2,14 +2,14 @@
 import java.util.Scanner;
 
 
-public class EnBuyukSayıyıBulma {
+public class EnBuyukSayiyiBulma {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Birinci sayı :");
+        System.out.print("Birinci sayi :");
         int a = scanner.nextInt();
-        System.out.print("ikinci sayı :");
+        System.out.print("ikinci sayi :");
         int b = scanner.nextInt();
-        System.out.print("ücüncü sayı :");
+        System.out.print("ücüncü sayi :");
         int c = scanner.nextInt();
         
         int maks = -1 ;
@@ -23,7 +23,7 @@ public class EnBuyukSayıyıBulma {
         
             maks = c;
     }
-      System.out.println("Maksimum sayı :" + maks );
+      System.out.println("Maksimum sayi :" + maks );
 
     }
 }
